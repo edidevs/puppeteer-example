@@ -15,6 +15,6 @@ cd puppeteer-example
 npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
 npm install --save-dev typescript ts-node @types/node
 
-# 5. Run the bot
+# 5. Run the code
 
 npm run dev
