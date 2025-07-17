@@ -92,7 +92,7 @@ async function main() {
   });
 
   const page = await browser.newPage();
-  await page.goto("https://www.cardmarket.com/");
+  await page.goto("https://www.google.com//");
 
   console.log(await page.content());
 
