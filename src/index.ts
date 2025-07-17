@@ -78,7 +78,7 @@ async function launchBrowser({
 
 async function main() {
   // Example proxy string
-  const proxyString = "host:port:username:password";
+  const proxyString = "92.204.164.15:10000:geonode_weJLohd47L-type-residential-country-de-lifetime-15-session-4x07oJ:1d42a784-e53e-4a0a-ac5a-5b8bcd1fe20f";
   const [host, port, username, password] = proxyString.split(":");
 
   const browser = await launchBrowser({
@@ -92,7 +92,7 @@ async function main() {
   });
 
   const page = await browser.newPage();
-  await page.goto("https://httpbin.org/ip");
+  await page.goto("https://www.cardmarket.com/");
 
   console.log(await page.content());
 
